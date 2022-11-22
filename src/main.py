@@ -33,17 +33,15 @@ def main():
 
     banner = """
 
-  ___   _   _ ______  _   _ ___  ___
- / _ \ | | | || ___ \| | | ||  \/  |
-/ /_\ \| | | || |_/ /| | | || .  . |
-|  _  || | | ||    / | | | || |\/| |
-| | | || |_| || |\ \ | |_| || |  | |
-\_| |_/ \___/ \_| \_| \___/ \_|  |_/
+                                      ___   _   _ ______  _   _ ___  ___
+                                     / _ \ | | | || ___ \| | | ||  \/  |
+                                    / /_\ \| | | || |_/ /| | | || .  . |
+                                    |  _  || | | ||    / | | | || |\/| |
+                                    | | | || |_| || |\ \ | |_| || |  | |
+                                    \_| |_/ \___/ \_| \_| \___/ \_|  |_/ v1.0
                                     
-                                    
-v1.0
                         ╔═════════════════════════╗         ╔═════════════════════════╗
-                        ║      dsc.gg/gokimax     ║         ║       dsc.gg/gokimax    ║
+                        ║    dsc.gg/cheapboosts   ║         ║   dsc.gg/cheapboosts    ║
                      ╔═══════════════════════════════╗   ╔═══════════════════════════════╗
                      ║ [1] Nuke Token                ║   ║ [10] Get All Friends          ║  
                      ║ [2] Leave Servers             ║   ║ [11] Token Info               ║
@@ -61,7 +59,7 @@ v1.0
 
     # ========================================================================================================================================================= #
 
-    info = f"""{Fore.LIGHTCYAN_EX}\t\t\t\t\t  [+] Made by gokimax [+]"""
+    info = f"""{Fore.LIGHTCYAN_EX}\t\t\t\t\t  [+] Made by ZeltuxDev [+]"""
     for x in info:
         time.sleep(0.0001)
         sys.stdout.write(x)
@@ -146,7 +144,7 @@ def socials():
         os.system('clear')
 
     # Set Console title
-    set_console_title("Chronos V1 | Made by gokimax | Socials")
+    set_console_title("Aurum v1 | Made by ZeltuxDev | Socials")
 
     banner = f"""
                                  _________                    .___.__  __          
@@ -156,9 +154,9 @@ def socials():
                                   \______  /|__|    \___  >____ | |__||__| /____  >
                                          \/             \/     \/               \/ 
                                            ╔═════════════════════════╗      
-                                           ║      dsc.gg/gokimax     ║
-                                           ║  twitter.com/gokimax_x  ║  
-                                           ║   github.com/gokiimax   ║  
+                                           ║    dsc.gg/cheapboosts   ║
+                                           ║           ---           ║  
+                                           ║   github.com/ZeltuxDev  ║  
                                            ╚═════════════════════════╝   
     """
     faded_banner = fade.greenblue(banner)
